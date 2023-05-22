@@ -18,7 +18,7 @@ for (let i = 0; i < mailList.length; i++) {
 }
 console.log(flag)
 //invio a schermo un messaggio per dire all'utente se la mail è presente o meno nell'elenco
-if (flag = true) {
+if (flag == true ) {
     console.log(flag)
     alert('è consentito l\'accesso con questa mail');
 } else {
